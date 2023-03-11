@@ -1,0 +1,22 @@
+.card {
+    display: flex;
+    width: auto;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px #000000 solid;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card__product-image {
+    width: 120px;
+    height: 60px;
+}
+
+.card__product-image img{
+    object-fit: cover;
+}
