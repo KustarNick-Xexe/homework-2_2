@@ -11,7 +11,7 @@ function IconSwitch({ icon, onSwitch }) {
     return (
         <> 
            <div className="products-header">
-                <span onClick={handleClick}>Иконка от гугла</span>
+                <span className="material-icons" onClick={handleClick}>{icon}</span>
            </div>
         </>
     );

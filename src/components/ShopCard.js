@@ -11,7 +11,7 @@ function ShopCard({ item }) {
           <div className="card__product-image">
             <img src={item.img} />
           </div>
-          <div className="container">
+          <div className="card-container">
             <div className="card__product-price">{item.price}</div>
             <button className="card__product-button">ADD TO CARD</button>
           </div>
